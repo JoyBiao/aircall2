@@ -1,0 +1,44 @@
+.callFeedContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.archiveAllButton{
+    height: 50px;
+    width: 96%;
+    margin-left: 5px;
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 0.3s ease-in;
+}
+.archiveAllButton:hover{
+    background-color: rgba(10, 153, 209, 0.405);
+}
+
+.archiveIcon{
+    /* margin-left: 1.1rem; */
+    flex:1;
+}
+
+.archiveAllText{
+    flex:4;
+}
+
+.callsList {
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    margin-left: 3px;
+    height: 400px;
+    overflow-y: scroll
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
